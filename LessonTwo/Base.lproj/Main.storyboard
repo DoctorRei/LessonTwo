@@ -33,6 +33,9 @@
                                 <state key="normal" title="Show Hello">
                                     <color key="titleColor" systemColor="systemRedColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="greetingButtonTaped" destination="BYZ-38-t0r" eventType="touchUpInside" id="8HO-ei-nhX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -45,6 +48,10 @@
                             <constraint firstItem="l6o-SV-OIh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="92" id="xaC-Ot-aFT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greetingButton" destination="y3D-mk-fuq" id="r9D-Yf-BzC"/>
+                        <outlet property="greetingText" destination="l6o-SV-OIh" id="IOz-55-pPs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
