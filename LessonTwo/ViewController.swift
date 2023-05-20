@@ -19,7 +19,10 @@ class ViewController: UIViewController {
 
     @IBAction func greetingButtonTaped() {
         greetingText.isHidden.toggle()
+            greetingButton.setTitle(
+                greetingText.isHidden ? "Show hello" : "Hide", for: .normal)
+        }
     }
     
-}
+
 
