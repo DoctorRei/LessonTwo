@@ -14,10 +14,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        greetingText.isHidden.toggle()
     }
 
     @IBAction func greetingButtonTaped() {
+        greetingText.isHidden.toggle()
     }
     
 }
